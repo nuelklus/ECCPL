@@ -25,8 +25,7 @@ SECRET_KEY = '8n5c=h)xn!vq61q_3$qct*4kg09wnw=xs)0sh+0i2h$ej@=-1&'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
-
+ALLOWED_HOSTS = ['eklutse.pythonanywhere.com']
 
 # Application definition
 
