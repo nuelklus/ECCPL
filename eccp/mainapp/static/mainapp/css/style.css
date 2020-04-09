@@ -6126,12 +6126,13 @@ footer .logo {
 
 /* Footer widgets */
 .footer_wrap_inner {
-	padding: 2.75em 0 0.6em;
+	padding: 2.75em 0 2.75em;
 }
+/*
 .footer_wrap aside {
 	margin-bottom:1.5em;
 }
-
+*?
 
 /* Contacts */
 .contacts_wrap_inner {
@@ -6184,7 +6185,7 @@ footer.twitter_wrap .sc_section_overlay {
 
 /* Copyright area */
 .copyright_wrap_inner {
-    padding: 2.65em 0 2.25em;
+    padding: 1em 0 1em;
 	overflow:hidden;
 }
 .copyright_wrap p {
@@ -6195,7 +6196,7 @@ footer.twitter_wrap .sc_section_overlay {
 }
 .copyright_style_menu .copyright_text,
 .copyright_style_socials .copyright_text {
-	float:right;
+/*	float:right; */
 }
 .copyright_style_socials .sc_socials,
 .copyright_style_menu .menu_footer_nav {

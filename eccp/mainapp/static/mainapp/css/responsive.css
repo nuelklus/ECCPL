@@ -2862,7 +2862,7 @@ Very common low res
 		margin-left:0 !important;
 	}
 	.widget_area aside+aside {
-		margin-top:3.5em;
+		margin-top:0;
 	}
     footer .widget_area_inner aside.column-1_4:nth-child(n+5) {
         border: 0;
@@ -2946,7 +2946,7 @@ Very common low res
 	.row:not(.columns_fluid) > [class*="column-"]+[class*="column-"], .columns_wrap:not(.columns_fluid) > [class*="column-"]+[class*="column-"],
 	.row.columns_fluid > [class*="column-"]:nth-child(2n+3), .columns_wrap.columns_fluid > [class*="column-"]:nth-child(2n+3),
 	.row.columns_fluid > [class*="column-"]:nth-child(2n+4), .columns_wrap.columns_fluid > [class*="column-"]:nth-child(2n+4) {
-		padding-top: 20px;
+		padding-top: 0;
 	}
 
 	.gallery.gallery-columns-9 .gallery-item {	width: 50% !important; }
