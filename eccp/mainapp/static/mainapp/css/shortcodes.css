@@ -5988,3 +5988,25 @@ body.sidebar_hide .sc_recent_news_style_news-announce .post_size_small { height:
     font-size: 35px;
     color: #633303 !important;
     }
+
+.contact_number_phone:before {
+	content:'\e856';
+    font-family: Fontello, sans-serif;
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    transform: translateX(-50%);
+    font-weight: 400;
+    font-size: 80px;
+    color: #633303 !important;
+}
+
+.contact_number_mobile {
+	content:'\e856';
+    font-family: Fontello, sans-serif;
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    transform: translateX(-50%);
+    font-weight: 400;
+    font-size: 35px;
+    color: #633303 !important;
+}

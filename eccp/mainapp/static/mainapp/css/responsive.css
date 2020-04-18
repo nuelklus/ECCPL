@@ -3750,5 +3750,18 @@ Very common low res
         width:100%
     }
 
+    .contact_bottom{
+        margin-top: 20px;
+        width: 60%;
+        font-size: inherit;
+        font-weight: 600;
+    }
+
+    .map_size{
+    border: 1px solid #f2f2f2;
+    height:600px;
+    margin: 5.2em 0;
+    box-sizing: border-box;
+    }
 }
 

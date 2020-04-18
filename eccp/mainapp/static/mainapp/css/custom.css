@@ -1032,3 +1032,37 @@ padding-right:0 !important;
 .team_position{
 margin-bottom:10px;
 }
+
+.contact_input{
+    width: 100%;
+    margin: 20px 0;
+}
+
+.contact_bottom{
+   margin-top: 20px;
+   width: 35%;
+   font-size: inherit;
+   font-weight: 600;
+}
+
+.map_size{
+    border: 1px solid #f2f2f2;
+    height:600px;
+    margin: 5.2em 0;
+    box-sizing: border-box;
+    }
+
+
+.contact_number_phone{
+    float:left;
+    margin: .45em 8.35em 0 8.35em;
+}
+
+.contact_number_calls{
+    display: inline-block;
+    width:250px;
+}
+
+.contact_call_us{
+margin: 0 0 .5em 0 !important;
+}

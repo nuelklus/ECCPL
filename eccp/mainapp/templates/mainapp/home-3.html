@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 {% load static %}
+
 <html lang="en-US" class="scheme_original">
 
 <head>
@@ -659,7 +660,7 @@
                                 <div class="wpb_column vc_column_container vc_col-sm-12">
                                     <div class="vc_column-inner ">
                                         <div class="wpb_wrapper">
-                                            <div class="sc_section margin_top_huge margin_bottom_huge" data-animation="animated fadeInUp normal">
+                                            <div class="sc_section margin_top_huge " data-animation="animated fadeInUp normal">
                                                 <div class="sc_section_inner">
                                                     <h2 class="sc_section_title sc_item_title sc_item_title_without_descr">Products<span></span></h2>
                                                     <div class="sc_section_content_wrap">
@@ -779,6 +780,68 @@
                                                                         </div>
                                                                     </div>
                                                                 </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div style="position: relative; left: -352.5px; box-sizing: border-box; width: 1905px; padding-left: 352.5px; padding-right: 352.5px;border-top: 1px #eaeaea solid;"></div>
+                            <div class="vc_row wpb_row vc_row-fluid">
+                                <div class="wpb_column vc_column_container vc_col-sm-12">
+                                    <div class="vc_column-inner ">
+                                        <div class="wpb_wrapper">
+                                            <div class="sc_section sc_section_block margin_top_huge margin_bottom_huge aligncenter" data-animation="">
+                                                <div class="sc_section_inner">
+                                                    <h2 class="sc_section_title sc_item_title sc_item_title_without_descr">Contact<span></span></h2>
+                                                    <div class="sc_section_content_wrap">
+
+                                                        <div class="ls_vision">
+                                                            <h4 class="" style=" text-align: right;">
+                                                                Contact us at
+                                                                <a class="" href="mailto:info@abc.com" style="color: darkgoldenrod;">info@abc.com</a> </h4>
+                                                            <p style="font-size: larger;text-align: left;">Your message will be forwarded to the right team at GenKey. We’ll get back to you as soon as possible. Thanks for getting in touch.</p>
+                                                            <div class="" style="height:600px; margin: 5em 0; padding: 1em 2em; background-color: #f2f2f2; box-sizing: border-box;" >
+                                                                <div>
+                                                                    <form method="POST">
+                                                                        {% csrf_token %}
+                                                                        <div>
+                                                                            {{ form.name }}
+                                                                        </div>
+                                                                        <div>
+                                                                            {{ form.email }}
+                                                                        </div>
+                                                                        <div>
+                                                                            {{form.subject}}
+                                                                        </div>
+                                                                        <div>
+                                                                            {{ form.message}}
+                                                                        </div>
+
+                                                                        <button type="submit" class="contact_bottom">Submit</button>
+                                                                    </form>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+
+                                                        <div class="ls_mission" >
+                                                            <div class="" style="border: 1px solid black; height:90px;
+                                                            margin: 4em 0 2em; box-sizing: border-box;">
+                                                                <div class="contact_number_phone">
+                                                                    <div class="contact_number_calls">
+                                                                        <h4 class="contact_call_us"> CALL US </h4>
+                                                                        <p class="">0500 498 777  -  0302 965 894 </p>
+                                                                    </div>
+                                                                </div>
+
+
+                                                            </div>
+                                                            <div class="map_size" >
+                                                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3970.35894385937!2d-0.02633078517874093!3d5.661117934157197!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xfdf80c0945ea439%3A0xb06fe6da69d5f3b3!2s5th%20Ave%2C%20Tema!5e0!3m2!1sen!2sgh!4v1586750336316!5m2!1sen!2sgh"
+                                                                        width="561" height="602" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
                                                             </div>
                                                         </div>
                                                     </div>
