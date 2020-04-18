@@ -1,7 +1,8 @@
 from django.urls import path
-from .views import HomeView
+from .views import ContactFormView
+# from .views import HomeView
 
 app_name = 'mainapp'
 urlpatterns = [
-    path('', HomeView.as_view(), name='homepage')
+    path('', ContactFormView.as_view(), name='homepage')
 ]
