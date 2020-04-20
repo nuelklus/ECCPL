@@ -673,10 +673,11 @@ img.emoji {
 }
 
 .vc_custom_1475148381788 {
-	background-image: url(../images/2000x800.png) !important;
+	background-image: url(../images/ecpl-text-background1.jpg) !important;
 	background-position: center !important;
 	background-repeat: no-repeat !important;
 	background-size: cover !important;
+	height: 350px;
 }
 
 .vc_custom_1475048754773 {
@@ -988,7 +989,7 @@ img.emoji {
 }
 
 .sc_promo_image {
-	background-image:url(../images/cocoabeans.jpg);
+	background-image:url(../images/ecpl-hand.jpg);
 	width:50%;
 	left: 0;
 }

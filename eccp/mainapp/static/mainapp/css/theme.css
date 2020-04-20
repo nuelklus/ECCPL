@@ -738,7 +738,7 @@ textarea {
 .scheme_original .top_panel_inner_style_1 .menu_main_nav > li.current-menu-item > a,
 .scheme_original .top_panel_inner_style_1 .menu_main_nav > li.current-menu-parent > a,
 .scheme_original .top_panel_inner_style_1 .menu_main_nav > li.current-menu-ancestor > a {
-  color: #ffffff;
+  color: #fecf4d;
 }
 .menu_main_nav > li > ul {
   font-family: "Oswald", sans-serif;
