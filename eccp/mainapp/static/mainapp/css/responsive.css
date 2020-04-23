@@ -2503,7 +2503,7 @@ Very common low res
 */
 @media (max-width: 479px) {
 
-	html, body {	font-size: 12px; }
+	html, body {	font-size: 12px; overflow-x: hidden;}
 	h1 { font-size:2.5em; }		/* 30px */
 	h2 { font-size:2em; }		/* 24px */
 	h3 { font-size:2em; }		/* 24px */
@@ -2804,7 +2804,7 @@ Very common low res
 
 	/* Body sizes */
 	.body_style_boxed .page_wrap {		width:100%; }
-	.slider_boxed, .content_wrap, .content_container {	width:280px; }
+	.slider_boxed, .content_wrap, .content_container {	width:100%; }
 
 	/* Content and Sidebar */
 	.sidebar_show .content { width: 100%; float: none; }
@@ -3758,10 +3758,40 @@ Very common low res
     }
 
     .map_size{
-    border: 1px solid #f2f2f2;
-    height:600px;
-    margin: 5.2em 0;
-    box-sizing: border-box;
+        border: 1px solid #f2f2f2;
+        height:300px;
+        margin: 5.2em 0;
+        box-sizing: border-box;
+    }
+
+    .contact_number_phone:before {
+        content: none;
+    }
+
+    .contact_number_calls{
+        width: 100%;
+        padding-top: 2rem;
+    }
+
+    .contact_number_phone{
+        margin: 0;
+        float: none;
+    }
+
+    .menu_main_nav_area{
+        text-align: center;
+    }
+
+    .menu_main_nav{
+        margin-left: 1.3em !important;
+        float:none !important;
+    }
+
+    .margino{
+        margin-left: 0 !important;
+    }
+    #off-mb.header-off-mb{
+    display: block !important;
     }
 }
 
