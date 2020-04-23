@@ -31,7 +31,7 @@
     <link rel='stylesheet' href='{% static "mainapp/js/vendor/swiper/swiper.css" %}' type='text/css' media='all'/>
 </head>
 
-<body class="page home3 body_style_wide body_filled article_style_stretch layout_single-standard template_single-standard scheme_original top_panel_show top_panel_above sidebar_hide sidebar_outer_hide vc_responsive">
+<body id="homelink" class="page home3 body_style_wide body_filled article_style_stretch layout_single-standard template_single-standard scheme_original top_panel_show top_panel_above sidebar_hide sidebar_outer_hide vc_responsive">
 
 <a id="toc_home" class="sc_anchor" title="Home"
    data-description="&lt;i&gt;Return to Home&lt;/i&gt; - &lt;br&gt;navigate to home page of the site"
@@ -43,12 +43,12 @@
 <div class="body_wrap">
     <div class="page_wrap">
         <div class="top_panel_fixed_wrap"></div>
-        <header class="top_panel_wrap top_panel_style_1 scheme_original">
+        <header id="off-mb" class="top_panel_wrap top_panel_style_1 scheme_original header-off-mb">
             <div class="top_panel_wrap_inner top_panel_inner_style_1 top_panel_position_above">
                 <div class="top_panel_top">
                     <div class="content_wrap clearfix">
                         <div class="top_panel_top_contact_area icons icon-phone-1">+233 (0) 302965894</div>
-                        <div class="top_panel_top_contact_area icons icon-mobile-phone-1" style="margin-left: 1em;">+233
+                        <div class="top_panel_top_contact_area icons icon-mobile-phone-1 margino" style="margin-left: 1em;">+233
                             (0) 500498777
                         </div>
                         <div class="top_panel_top_open_hours icons icon-clock-1">Mn-Fr: 8am - 8pm, St-Sn: 8am - 4pm
@@ -106,84 +106,84 @@
                 </div>
             </div>
         </header>
-        <div class="header_mobile">
-            <div class="content_wrap">
-                <div class="menu_button icon-menu" style="font-size: 50px;"></div>
-                <div class="logo">
-                    <a href="index.html">
-                        <img src='{% static "mainapp/images/logo.jpg" %}' class="logo_main" alt="" width="239" height="59" style=" height: 50px;">
-                    </a>
-                </div>
-            </div>
-            <div class="side_wrap">
-                <div class="close">Close</div>
-                <div class="panel_top">
-                    <nav class="menu_main_nav_area">
-                        <ul id="menu_mobile" class="menu_main_nav">
-                            <li class="menu-item current-menu-ancestor current-menu-parent menu-item-has-children"><a
-                                    href="#"><span>Home</span></a>
-                                <ul class="sub-menu">
-                                    <li class="menu-item"><a href="index.html"><span>Homepage 1</span></a></li>
-                                    <li class="menu-item"><a href="home-2.html"><span>Homepage 2</span></a></li>
-                                    <li class="menu-item current-menu-item"><a
-                                            href="home-3.html"><span>Homepage 3</span></a></li>
-                                </ul>
-                            </li>
-                            <li class="menu-item menu-item-has-children"><a href="#"><span>About us</span></a>
-                                <ul class="sub-menu">
-                                    <li class="menu-item"><a href="about-1.html"><span>About 1</span></a></li>
-                                    <li class="menu-item"><a href="about-2.html"><span>About 2</span></a></li>
-                                    <li class="menu-item menu-item-has-children"><a href="#"><span>Features</span></a>
-                                        <ul class="sub-menu">
-                                            <li class="menu-item"><a href="shortcodes.html"><span>Shortcodes</span></a>
-                                            </li>
-                                            <li class="menu-item"><a href="typography.html"><span>Typography</span></a>
-                                            </li>
-                                        </ul>
-                                    </li>
-                                    <li class="menu-item menu-item-has-children"><a href="#"><span>Gallery</span></a>
-                                        <ul class="sub-menu">
-                                            <li class="menu-item"><a
-                                                    href="cobbles.html"><span>Gallery Cobbles</span></a></li>
-                                            <li class="menu-item"><a href="grid.html"><span>Gallery Grid</span></a></li>
-                                            <li class="menu-item"><a
-                                                    href="masonry.html"><span>Gallery Masonry</span></a></li>
-                                        </ul>
-                                    </li>
-                                </ul>
-                            </li>
-                            <li class="menu-item"><a href="farm.html"><span>Farm</span></a></li>
-                            <li class="menu-item menu-item-has-children"><a href="#"><span>Blog</span></a>
-                                <ul class="sub-menu">
-                                    <li class="menu-item"><a href="classic.html"><span>Classic</span></a></li>
-                                    <li class="menu-item menu-item-has-children"><a href="#"><span>Masonry</span></a>
-                                        <ul class="sub-menu">
-                                            <li class="menu-item"><a href="masonry-2-columns.html"><span>Masonry 2 columns</span></a>
-                                            </li>
-                                            <li class="menu-item"><a href="masonry-3-columns.html"><span>Masonry 3 columns</span></a>
-                                            </li>
-                                        </ul>
-                                    </li>
-                                    <li class="menu-item menu-item-has-children"><a href="#"><span>Portfolio</span></a>
-                                        <ul class="sub-menu">
-                                            <li class="menu-item"><a href="portfolio-2-columns.html"><span>Portfolio 2 columns</span></a>
-                                            </li>
-                                            <li class="menu-item"><a href="portfolio-3-columns.html"><span>Portfolio 3 columns</span></a>
-                                            </li>
-                                        </ul>
-                                    </li>
-                                </ul>
-                            </li>
-                            <li class="menu-item"><a href="shop.html"><span>Products</span></a></li>
-                            <li class="menu-item"><a href="contacts.html"><span>Contacts</span></a></li>
-                        </ul>
-                    </nav>
-                </div>
-                <div class="panel_bottom">
-                </div>
-            </div>
-            <div class="mask"></div>
-        </div>
+<!--        <div class="header_mobile" >-->
+<!--            <div class="content_wrap">-->
+<!--                <div class="menu_button icon-menu" style="font-size: 50px;"></div>-->
+<!--                <div class="logo">-->
+<!--                    <a href="index.html">-->
+<!--                        <img src='{% static "mainapp/images/logo.jpg" %}' class="logo_main" alt="" width="239" height="59" style=" height: 50px;">-->
+<!--                    </a>-->
+<!--                </div>-->
+<!--            </div>-->
+<!--            <div class="side_wrap">-->
+<!--                <div class="close">Close</div>-->
+<!--                <div class="panel_top">-->
+<!--                    <nav class="menu_main_nav_area">-->
+<!--             b            <ul id="menu_mobile" class="menu_main_nav">-->
+<!--                            <li class="menu-item current-menu-ancestor current-menu-parent menu-item-has-children"><a-->
+<!--                                    href="#"><span>Home</span></a>-->
+<!--&lt;!&ndash;                                <ul class="sub-menu">&ndash;&gt;-->
+<!--&lt;!&ndash;                                    <li class="menu-item"><a href="index.html"><span>Homepage 1</span></a></li>&ndash;&gt;-->
+<!--&lt;!&ndash;                                    <li class="menu-item"><a href="home-2.html"><span>Homepage 2</span></a></li>&ndash;&gt;-->
+<!--&lt;!&ndash;                                    <li class="menu-item current-menu-item"><a&ndash;&gt;-->
+<!--&lt;!&ndash;                                            href="home-3.html"><span>Homepage 3</span></a></li>&ndash;&gt;-->
+<!--&lt;!&ndash;                                </ul>&ndash;&gt;-->
+<!--                            </li>-->
+<!--                            <li class="menu-item menu-item-has-children"><a href="#"><span>About us</span></a>-->
+<!--&lt;!&ndash;                                <ul class="sub-menu">&ndash;&gt;-->
+<!--&lt;!&ndash;                                    <li class="menu-item"><a href="about-1.html"><span>About 1</span></a></li>&ndash;&gt;-->
+<!--&lt;!&ndash;                                    <li class="menu-item"><a href="about-2.html"><span>About 2</span></a></li>&ndash;&gt;-->
+<!--&lt;!&ndash;                                    <li class="menu-item menu-item-has-children"><a href="#"><span>Features</span></a>&ndash;&gt;-->
+<!--&lt;!&ndash;                                        <ul class="sub-menu">&ndash;&gt;-->
+<!--&lt;!&ndash;                                            <li class="menu-item"><a href="shortcodes.html"><span>Shortcodes</span></a>&ndash;&gt;-->
+<!--&lt;!&ndash;                                            </li>&ndash;&gt;-->
+<!--&lt;!&ndash;                                            <li class="menu-item"><a href="typography.html"><span>Typography</span></a>&ndash;&gt;-->
+<!--&lt;!&ndash;                                            </li>&ndash;&gt;-->
+<!--&lt;!&ndash;                                        </ul>&ndash;&gt;-->
+<!--&lt;!&ndash;                                    </li>&ndash;&gt;-->
+<!--&lt;!&ndash;                                    <li class="menu-item menu-item-has-children"><a href="#"><span>Gallery</span></a>&ndash;&gt;-->
+<!--&lt;!&ndash;                                        <ul class="sub-menu">&ndash;&gt;-->
+<!--&lt;!&ndash;                                            <li class="menu-item"><a&ndash;&gt;-->
+<!--&lt;!&ndash;                                                    href="cobbles.html"><span>Gallery Cobbles</span></a></li>&ndash;&gt;-->
+<!--&lt;!&ndash;                                            <li class="menu-item"><a href="grid.html"><span>Gallery Grid</span></a></li>&ndash;&gt;-->
+<!--&lt;!&ndash;                                            <li class="menu-item"><a&ndash;&gt;-->
+<!--&lt;!&ndash;                                                    href="masonry.html"><span>Gallery Masonry</span></a></li>&ndash;&gt;-->
+<!--&lt;!&ndash;                                        </ul>&ndash;&gt;-->
+<!--&lt;!&ndash;                                    </li>&ndash;&gt;-->
+<!--&lt;!&ndash;                                </ul>&ndash;&gt;-->
+<!--                            </li>-->
+<!--&lt;!&ndash;                            <li class="menu-item"><a href="farm.html"><span>Farm</span></a></li>&ndash;&gt;-->
+<!--&lt;!&ndash;                            <li class="menu-item menu-item-has-children"><a href="#"><span>Blog</span></a>&ndash;&gt;-->
+<!--&lt;!&ndash;                                <ul class="sub-menu">&ndash;&gt;-->
+<!--&lt;!&ndash;                                    <li class="menu-item"><a href="classic.html"><span>Classic</span></a></li>&ndash;&gt;-->
+<!--&lt;!&ndash;                                    <li class="menu-item menu-item-has-children"><a href="#"><span>Masonry</span></a>&ndash;&gt;-->
+<!--&lt;!&ndash;                                        <ul class="sub-menu">&ndash;&gt;-->
+<!--&lt;!&ndash;                                            <li class="menu-item"><a href="masonry-2-columns.html"><span>Masonry 2 columns</span></a>&ndash;&gt;-->
+<!--&lt;!&ndash;                                            </li>&ndash;&gt;-->
+<!--&lt;!&ndash;                                            <li class="menu-item"><a href="masonry-3-columns.html"><span>Masonry 3 columns</span></a>&ndash;&gt;-->
+<!--&lt;!&ndash;                                            </li>&ndash;&gt;-->
+<!--&lt;!&ndash;                                        </ul>&ndash;&gt;-->
+<!--&lt;!&ndash;                                    </li>&ndash;&gt;-->
+<!--&lt;!&ndash;                                    <li class="menu-item menu-item-has-children"><a href="#"><span>Portfolio</span></a>&ndash;&gt;-->
+<!--&lt;!&ndash;                                        <ul class="sub-menu">&ndash;&gt;-->
+<!--&lt;!&ndash;                                            <li class="menu-item"><a href="portfolio-2-columns.html"><span>Portfolio 2 columns</span></a>&ndash;&gt;-->
+<!--&lt;!&ndash;                                            </li>&ndash;&gt;-->
+<!--&lt;!&ndash;                                            <li class="menu-item"><a href="portfolio-3-columns.html"><span>Portfolio 3 columns</span></a>&ndash;&gt;-->
+<!--&lt;!&ndash;                                            </li>&ndash;&gt;-->
+<!--&lt;!&ndash;                                        </ul>&ndash;&gt;-->
+<!--&lt;!&ndash;                                    </li>&ndash;&gt;-->
+<!--&lt;!&ndash;                                </ul>&ndash;&gt;-->
+<!--&lt;!&ndash;                            </li>&ndash;&gt;-->
+<!--                            <li class="menu-item"><a href="#productlink"><span>Products</span></a></li>-->
+<!--                            <li class="menu-item"><a href=#contactlink"><span>Contacts</span></a></li>-->
+<!--                        </ul>-->
+<!--                    </nav>-->
+<!--                </div>-->
+<!--                <div class="panel_bottom">-->
+<!--                </div>-->
+<!--            </div>-->
+<!--            <div class="mask"></div>-->
+<!--        </div>-->
         <section class="slider_wrap slider_fullwide slider_engine_revo slider_alias_slider-1">
             <div id="rev_slider_1_1_wrapper" class="rev_slider_wrapper fullwidthbanner-container">
                 <div id="rev_slider_1_1" class="rev_slider fullwidthabanner" data-version="5.2.6">
@@ -313,12 +313,13 @@
                                                  data-animation="animated fadeInUp normal">
                                                 <div class="sc_section_inner">
                                                     <h2 class="sc_section_title sc_item_title sc_item_title_without_descr">
-                                                        Welcome To Our Processing Plant<span></span></h2>
+                                                        Welcome To East Cent Cocoa Processing Plant<span></span></h2>
                                                     <div class="sc_section_content_wrap">
-                                                        <div class="sc_section sc_section_block margin_bottom_large aligncenter mw800">
+                                                        <div class="sc_section sc_section_block margin_bottom_large aligncenter mw800" style="margin-bottom: 0 !important;">
                                                             <div class="sc_section_inner">
                                                                 <div class="sc_section_content_wrap">
-                                                                    <span class="sc_highlight fst_1">Here you will find a wide range of healthy and fresh dairy products that were proudly produced at our farm by our farmers and cows. Welcome to Jacksons!</span>
+                                                                    <span class="sc_highlight fst_1">
+                                                                        We produce semi-finished cocoa products accustomed and defined cocoa liquor, natural cocoa butter and natural cocoa cake and cocoa powder.By this, we process a range of products from 100% Ghana cocoa beans where total attention is paid to the selection of beans. </span>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -390,7 +391,7 @@
                                                                 </div>
                                                                 <div class="sc_services_item_content">
                                                                     <h4 class="sc_services_item_title">
-                                                                        <a href="farm.html">Best processed Cocoa</a>
+                                                                        <a href="farm.html">dry Cocoa</a>
                                                                     </h4>
                                                                     <div class="sc_services_item_description">
                                                                         <div class="wpb_text_column wpb_content_element ">
@@ -513,7 +514,7 @@
                                                                 <h4 class="sc_title sc_title_regular cmrg_2" style="font-size: 1.6em;">
                                                                     Delight McDaddy Genfiorh
                                                                 </h4>
-                                                                <em>Secretary</em>
+                                                                <em>Director Administration</em>
                                                                 <div class="wpb_text_column wpb_content_element ">
                                                                     <div class="wpb_wrapper">
                                                                         <p>
@@ -565,12 +566,12 @@
                                                                 <h4 class="sc_title sc_title_regular cmrg_2" style="font-size: 1.6em;">
                                                                     Alfred Ampah
                                                                 </h4>
-                                                                <em>Plant Manager</em>
+                                                                <em>Operations Manager</em>
                                                                 <div class="wpb_text_column wpb_content_element ">
                                                                     <div class="wpb_wrapper">
                                                                         <p>
                                                                             <strong>Mob: </strong>
-                                                                            +233(0)205347602 / 202022322
+                                                                            +233(0)244384315 / 202022322
                                                                             <br>
                                                                             <strong>Email: </strong>
                                                                             aampah@eastcentcocoa.com
@@ -582,7 +583,7 @@
                                                                 <h4 class="sc_title sc_title_regular cmrg_2" style="font-size: 1.6em;">
                                                                     Reuben Adjatey Obeney
                                                                 </h4>
-                                                                <em> Director Administration </em>
+                                                                <em> Plant Manager </em>
                                                                 <div class="wpb_text_column wpb_content_element ">
                                                                     <div class="wpb_wrapper">
                                                                         <p>
@@ -628,7 +629,7 @@
                                                                                 <a href="single-post.html">Cocoa Liquor</a>
                                                                             </h4>
                                                                             <div class="post_descr">
-                                                                                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Praesent vestibulum molestie lacus. Aenean nonummy hendrerit mauris. Phasellus porta.</p>
+                                                                                <p>Is produce from cocoa beans that are subsequently grinded into paste which can be further pressed into cocoa butter and cocoa cake/powder through pressing mechanism.</p>
                                                                             </div>
                                                                         </div>
                                                                     </div>
@@ -647,7 +648,7 @@
                                                                                 <a href="single-post.html">Cocoa Butter</a>
                                                                             </h4>
                                                                             <div class="post_descr">
-                                                                                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Praesent vestibulum molestie lacus. Aenean nonummy hendrerit mauris. Phasellus porta.</p>
+                                                                                <p>Is used in chocolate refining as well as creams and ointments and also pharmaceutical industry. Pure cocoa butter pressed from whole roasted cocoa beans- neutral in colour and taste.</p>
                                                                             </div>
                                                                         </div>
                                                                     </div>
@@ -663,10 +664,10 @@
                                                                         </div>
                                                                         <div class="post_content isotope_item_content">
                                                                             <h4 class="post_title">
-                                                                                <a href="single-post.html">Cocoa Press Cake</a>
+                                                                                <a href="single-post.html">Cocoa Cake</a>
                                                                             </h4>
                                                                             <div class="post_descr">
-                                                                                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Praesent vestibulum molestie lacus. Aenean nonummy hendrerit mauris. Phasellus porta.</p>
+                                                                                <p>Is the by ingredients after cocoa butter has been pressed out of Cocoa liquor. The cake can then be pulverized/grinded to make natural or alkalized cocoa powder. We produce both.</p>
                                                                             </div>
                                                                         </div>
                                                                     </div>
@@ -776,8 +777,8 @@
                                                         </div>
 
                                                         <div class="ls_mission" >
-                                                            <div class="" style="border: 1px solid black; height:90px;
-                                                            margin: 4em 0 2em; box-sizing: border-box;">
+                                                            <div class="" style="border: 1px solid lightgray; height:90px;
+                                                            margin: 4em 0 2em; box-sizing: border-box; border-radius: 0.5em;">
                                                                 <div class="contact_number_phone">
                                                                     <div class="contact_number_calls">
                                                                         <h4 class="contact_call_us"> CALL US </h4>
