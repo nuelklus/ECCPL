@@ -3791,7 +3791,21 @@ Very common low res
         margin-left: 0 !important;
     }
     #off-mb.header-off-mb{
-    display: block !important;
+        display: block !important;
     }
+
+    .vc_custom_1475148381788{
+       height: 540px;
+    }
+
+    .mngt_team{
+        margin-bottom: 1em;
+    }
+
+    .contact_margins{
+        margin-left: .5em !important;
+        margin-right: .5em !important;
+    }
+
 }
 
