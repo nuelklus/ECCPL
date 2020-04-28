@@ -23,9 +23,12 @@ TEMPLATE_DIR = os.path.join(BASE_DIR, 'templates')
 SECRET_KEY = '8n5c=h)xn!vq61q_3$qct*4kg09wnw=xs)0sh+0i2h$ej@=-1&'
 
 # SECURITY WARNING: don't run with debug turned on in production!
+
 DEBUG = False
 
 ALLOWED_HOSTS = ['www.eastcentcocoa.com']
+
+
 
 # Application definition
 
@@ -124,6 +127,7 @@ STATICFILES_DIRS = [
 # MEDIA_URL = '/media/'
 # MEDIA_ROOT = os.path.join(os.path.dirname(BASE_DIR), 'static_cdn', 'media_root')
 #
+
 # local email server
 EMAIL_BACKEND = "django.core.mail.backends.smtp.EmailBackend"
 EMAIL_HOST = "smtp.gmail.com"
@@ -131,3 +135,4 @@ EMAIL_USE_TLS = True
 EMAIL_PORT = 587
 EMAIL_HOST_USER = "nuelklus@gmail.com"
 EMAIL_HOST_PASSWORD = "himhim123"
+
