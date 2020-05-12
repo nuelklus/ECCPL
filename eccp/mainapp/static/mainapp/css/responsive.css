@@ -3795,7 +3795,7 @@ Very common low res
     }
 
     .vc_custom_1475148381788{
-       height: 540px;
+       height: 450px;
     }
 
     .mngt_team{
@@ -3807,5 +3807,9 @@ Very common low res
         margin-right: .5em !important;
     }
 
+
+    .off_rightmargin{
+        margin-right: 0 !important;
+    }
 }
 

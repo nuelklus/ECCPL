@@ -26,9 +26,8 @@ SECRET_KEY = '8n5c=h)xn!vq61q_3$qct*4kg09wnw=xs)0sh+0i2h$ej@=-1&'
 
 DEBUG = False
 
+
 ALLOWED_HOSTS = ['www.eastcentcocoa.com']
-
-
 
 # Application definition
 

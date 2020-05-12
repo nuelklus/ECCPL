@@ -1233,8 +1233,7 @@ fieldset legend {
 .row > [class*="column-"], .columns_wrap > [class*="column-"] {
 
   /* Old way: floating columns */
-  /* float: left;*/
-
+  float: left;
   /* New way: inline blocks */
   /* Warning: remove spaces between columns tags:
 		Right:															Wrong:
@@ -1302,7 +1301,7 @@ fieldset legend {
 .column-1_2, .column-2_4, .column-3_6, .column-4_8, .column-5_10, .column-6_12	{ width:50%; margin-right: -4px;}
 .column-1_3, .column-2_6, .column-3_9, .column-4_12								{ width:33.33333333%; margin-right: -4px;}
 .column-2_3, .column-4_6, .column-8_12											{ width:66.66666667%; }
-.column-1_4											{ width:20%; margin-right: -4px;}
+.column-1_4											{ width:25%; /*margin-right: -50px;*/}
 .column-2_8, .column-3_12											{ width:25%; margin-right: -4px;}
 .column-3_4, .column-6_8, .column-9_12											{ width:75%; }
 .column-1_5, .column-2_10														{ width:20%; }
